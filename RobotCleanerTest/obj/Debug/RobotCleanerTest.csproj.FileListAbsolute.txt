@@ -1,0 +1,7 @@
+D:\JobTest\ConsoleApplication1\RobotCleanerTest\bin\Debug\RobotCleanerTest.dll
+D:\JobTest\ConsoleApplication1\RobotCleanerTest\bin\Debug\RobotCleanerTest.pdb
+D:\JobTest\ConsoleApplication1\RobotCleanerTest\bin\Debug\ConsoleApplication1.exe
+D:\JobTest\ConsoleApplication1\RobotCleanerTest\bin\Debug\ConsoleApplication1.pdb
+D:\JobTest\ConsoleApplication1\RobotCleanerTest\obj\Debug\RobotCleanerTest.csprojResolveAssemblyReference.cache
+D:\JobTest\ConsoleApplication1\RobotCleanerTest\obj\Debug\RobotCleanerTest.dll
+D:\JobTest\ConsoleApplication1\RobotCleanerTest\obj\Debug\RobotCleanerTest.pdb

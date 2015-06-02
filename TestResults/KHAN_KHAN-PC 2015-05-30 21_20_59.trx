@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="97580934-c712-46cf-83e1-ce16cf74458b" name="KHAN@KHAN-PC 2015-05-30 21:20:59" runUser="KHAN-PC\KHAN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b2c5f62-c616-40e7-acad-d2f1962650e4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KHAN_KHAN-PC 2015-05-30 21_20_59">
+      <DeploymentItem filename="D:\JobTest\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-05-30T21:20:59.8845203+02:00" queuing="2015-05-30T21:20:59.9785256+02:00" start="2015-05-30T21:20:59.9915264+02:00" finish="2015-05-30T21:21:00.9115790+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="5" error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestHeadEast" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="78e4ce9b-cecb-923e-75ac-997d32318f4b">
+      <Execution id="7a802b78-5698-4f21-a3fc-e18c03485f1a" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadEast" />
+    </UnitTest>
+    <UnitTest name="TestRobotStartingPoint" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="478759fa-e84d-cd4c-e744-fb400b3bff29">
+      <Execution id="e63fbe8b-6904-451a-9bdd-a57f36b8144a" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobotStartingPoint" />
+    </UnitTest>
+    <UnitTest name="TestRobotConstructor" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="933bdbc8-18e3-5b98-7fb2-7ed8162b8c4b">
+      <Execution id="4c9b94b2-4195-4cb5-8b56-9e097707683f" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobotConstructor" />
+    </UnitTest>
+    <UnitTest name="TestGetSet" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="d17f595f-a6f2-edbd-b424-22eac5c3b1e0">
+      <Execution id="60005942-252f-449f-8029-086ecaf6db28" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetSet" />
+    </UnitTest>
+    <UnitTest name="TestIsValid" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44">
+      <Execution id="37c0926c-814b-4bd0-9985-6198fd2c4512" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.UserInputTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsValid" />
+    </UnitTest>
+    <UnitTest name="TestHeadWest" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="3705d86d-b764-32e9-49c3-40e90af23706">
+      <Execution id="11e58572-873e-4346-b365-23d85940ea5a" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadWest" />
+    </UnitTest>
+    <UnitTest name="TestBoundryLimits" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="f72c52ab-7b92-6dde-acfd-7351520e732c">
+      <Execution id="7254e216-4f43-4d07-9299-12a07729c2be" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBoundryLimits" />
+    </UnitTest>
+    <UnitTest name="TestHeadSouth" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="23f04516-95f5-5b1d-3158-e0a29697e3f0">
+      <Execution id="f2307f3d-275f-45ae-bb88-cf6413d636a3" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadSouth" />
+    </UnitTest>
+    <UnitTest name="TestHeadNorth" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="2d9a1d25-94f8-96cb-1107-5460a65ecf03">
+      <Execution id="198241d1-553b-4fb2-a1d3-d05310b1185c" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadNorth" />
+    </UnitTest>
+    <UnitTest name="TestUniquePoints" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="a1d6b078-0a41-0cd5-20c9-9302c73356d3">
+      <Execution id="a06e4d32-79b4-4c6c-8239-55d71acc194b" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUniquePoints" />
+    </UnitTest>
+    <UnitTest name="TestDirection" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="39cda155-5b1c-7acc-0f2d-25ec469f8c71">
+      <Execution id="51413585-052b-4fca-b623-6fdc36fd4a51" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.DirectionTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDirection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d17f595f-a6f2-edbd-b424-22eac5c3b1e0" executionId="60005942-252f-449f-8029-086ecaf6db28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="933bdbc8-18e3-5b98-7fb2-7ed8162b8c4b" executionId="4c9b94b2-4195-4cb5-8b56-9e097707683f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44" executionId="37c0926c-814b-4bd0-9985-6198fd2c4512" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39cda155-5b1c-7acc-0f2d-25ec469f8c71" executionId="51413585-052b-4fca-b623-6fdc36fd4a51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="478759fa-e84d-cd4c-e744-fb400b3bff29" executionId="e63fbe8b-6904-451a-9bdd-a57f36b8144a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78e4ce9b-cecb-923e-75ac-997d32318f4b" executionId="7a802b78-5698-4f21-a3fc-e18c03485f1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3705d86d-b764-32e9-49c3-40e90af23706" executionId="11e58572-873e-4346-b365-23d85940ea5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d9a1d25-94f8-96cb-1107-5460a65ecf03" executionId="198241d1-553b-4fb2-a1d3-d05310b1185c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23f04516-95f5-5b1d-3158-e0a29697e3f0" executionId="f2307f3d-275f-45ae-bb88-cf6413d636a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1d6b078-0a41-0cd5-20c9-9302c73356d3" executionId="a06e4d32-79b4-4c6c-8239-55d71acc194b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f72c52ab-7b92-6dde-acfd-7351520e732c" executionId="7254e216-4f43-4d07-9299-12a07729c2be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="60005942-252f-449f-8029-086ecaf6db28" testId="d17f595f-a6f2-edbd-b424-22eac5c3b1e0" testName="TestGetSet" computerName="KHAN-PC" duration="00:00:00.0672340" startTime="2015-05-30T21:21:00.0005269+02:00" endTime="2015-05-30T21:21:00.5465581+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60005942-252f-449f-8029-086ecaf6db28">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c9b94b2-4195-4cb5-8b56-9e097707683f" testId="933bdbc8-18e3-5b98-7fb2-7ed8162b8c4b" testName="TestRobotConstructor" computerName="KHAN-PC" duration="00:00:00.0003716" startTime="2015-05-30T21:21:00.5585588+02:00" endTime="2015-05-30T21:21:00.5665593+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c9b94b2-4195-4cb5-8b56-9e097707683f">
+    </UnitTestResult>
+    <UnitTestResult executionId="37c0926c-814b-4bd0-9985-6198fd2c4512" testId="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44" testName="TestIsValid" computerName="KHAN-PC" duration="00:00:00.0013943" startTime="2015-05-30T21:21:00.5825602+02:00" endTime="2015-05-30T21:21:00.5945609+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="37c0926c-814b-4bd0-9985-6198fd2c4512">
+    </UnitTestResult>
+    <UnitTestResult executionId="51413585-052b-4fca-b623-6fdc36fd4a51" testId="39cda155-5b1c-7acc-0f2d-25ec469f8c71" testName="TestDirection" computerName="KHAN-PC" duration="00:00:00.0015046" startTime="2015-05-30T21:21:00.6045614+02:00" endTime="2015-05-30T21:21:00.6155621+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51413585-052b-4fca-b623-6fdc36fd4a51">
+    </UnitTestResult>
+    <UnitTestResult executionId="e63fbe8b-6904-451a-9bdd-a57f36b8144a" testId="478759fa-e84d-cd4c-e744-fb400b3bff29" testName="TestRobotStartingPoint" computerName="KHAN-PC" duration="00:00:00.0411178" startTime="2015-05-30T21:21:00.6325630+02:00" endTime="2015-05-30T21:21:00.6795657+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e63fbe8b-6904-451a-9bdd-a57f36b8144a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RobotCleanerTest.RobotEnvironmentTest.TestRobotStartingPoint threw exception: 
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.</Message>
+          <StackTrace>    at RobotCleaner.RobotEnvironment..ctor(Int32 x, Int32 y) in D:\JobTest\ConsoleApplication1\ConsoleApplication1\RobotEnvironment.cs:line 32
+   at RobotCleanerTest.RobotEnvironmentTest.TestRobotStartingPoint() in D:\JobTest\ConsoleApplication1\RobotCleanerTest\RobotEnvironmentTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a802b78-5698-4f21-a3fc-e18c03485f1a" testId="78e4ce9b-cecb-923e-75ac-997d32318f4b" testName="TestHeadEast" computerName="KHAN-PC" duration="00:00:00.0169512" startTime="2015-05-30T21:21:00.6925665+02:00" endTime="2015-05-30T21:21:00.7155678+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a802b78-5698-4f21-a3fc-e18c03485f1a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RobotCleanerTest.RobotEnvironmentTest.TestHeadEast threw exception: 
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.</Message>
+          <StackTrace>    at RobotCleaner.RobotEnvironment..ctor(Int32 x, Int32 y) in D:\JobTest\ConsoleApplication1\ConsoleApplication1\RobotEnvironment.cs:line 32
+   at RobotCleanerTest.RobotEnvironmentTest.TestHeadEast() in D:\JobTest\ConsoleApplication1\RobotCleanerTest\RobotEnvironmentTest.cs:line 119
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11e58572-873e-4346-b365-23d85940ea5a" testId="3705d86d-b764-32e9-49c3-40e90af23706" testName="TestHeadWest" computerName="KHAN-PC" duration="00:00:00.0138910" startTime="2015-05-30T21:21:00.7195680+02:00" endTime="2015-05-30T21:21:00.7395692+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11e58572-873e-4346-b365-23d85940ea5a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RobotCleanerTest.RobotEnvironmentTest.TestHeadWest threw exception: 
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.</Message>
+          <StackTrace>    at RobotCleaner.RobotEnvironment..ctor(Int32 x, Int32 y) in D:\JobTest\ConsoleApplication1\ConsoleApplication1\RobotEnvironment.cs:line 32
+   at RobotCleanerTest.RobotEnvironmentTest.TestHeadWest() in D:\JobTest\ConsoleApplication1\RobotCleanerTest\RobotEnvironmentTest.cs:line 144
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="198241d1-553b-4fb2-a1d3-d05310b1185c" testId="2d9a1d25-94f8-96cb-1107-5460a65ecf03" testName="TestHeadNorth" computerName="KHAN-PC" duration="00:00:00.0402846" startTime="2015-05-30T21:21:00.7475696+02:00" endTime="2015-05-30T21:21:00.7935722+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="198241d1-553b-4fb2-a1d3-d05310b1185c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RobotCleanerTest.RobotEnvironmentTest.TestHeadNorth threw exception: 
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.</Message>
+          <StackTrace>    at RobotCleaner.RobotEnvironment..ctor(Int32 x, Int32 y) in D:\JobTest\ConsoleApplication1\ConsoleApplication1\RobotEnvironment.cs:line 32
+   at RobotCleanerTest.RobotEnvironmentTest.TestHeadNorth() in D:\JobTest\ConsoleApplication1\RobotCleanerTest\RobotEnvironmentTest.cs:line 169
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f2307f3d-275f-45ae-bb88-cf6413d636a3" testId="23f04516-95f5-5b1d-3158-e0a29697e3f0" testName="TestHeadSouth" computerName="KHAN-PC" duration="00:00:00.0113271" startTime="2015-05-30T21:21:00.8045729+02:00" endTime="2015-05-30T21:21:00.8225739+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2307f3d-275f-45ae-bb88-cf6413d636a3">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RobotCleanerTest.RobotEnvironmentTest.TestHeadSouth threw exception: 
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.</Message>
+          <StackTrace>    at RobotCleaner.RobotEnvironment..ctor(Int32 x, Int32 y) in D:\JobTest\ConsoleApplication1\ConsoleApplication1\RobotEnvironment.cs:line 32
+   at RobotCleanerTest.RobotEnvironmentTest.TestHeadSouth() in D:\JobTest\ConsoleApplication1\RobotCleanerTest\RobotEnvironmentTest.cs:line 194
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a06e4d32-79b4-4c6c-8239-55d71acc194b" testId="a1d6b078-0a41-0cd5-20c9-9302c73356d3" testName="TestUniquePoints" computerName="KHAN-PC" duration="00:00:00.0143884" startTime="2015-05-30T21:21:00.8305744+02:00" endTime="2015-05-30T21:21:00.8515756+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a06e4d32-79b4-4c6c-8239-55d71acc194b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method RobotCleanerTest.RobotEnvironmentTest.TestUniquePoints threw exception: 
+System.OutOfMemoryException: Exception of type 'System.OutOfMemoryException' was thrown.</Message>
+          <StackTrace>    at RobotCleaner.RobotEnvironment..ctor(Int32 x, Int32 y) in D:\JobTest\ConsoleApplication1\ConsoleApplication1\RobotEnvironment.cs:line 32
+   at RobotCleanerTest.RobotEnvironmentTest.TestUniquePoints() in D:\JobTest\ConsoleApplication1\RobotCleanerTest\RobotEnvironmentTest.cs:line 35
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7254e216-4f43-4d07-9299-12a07729c2be" testId="f72c52ab-7b92-6dde-acfd-7351520e732c" testName="TestBoundryLimits" computerName="KHAN-PC" duration="00:00:00.0161375" startTime="2015-05-30T21:21:00.8605761+02:00" endTime="2015-05-30T21:21:00.8825773+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7254e216-4f43-4d07-9299-12a07729c2be">
+    </UnitTestResult>
+  </Results>
+</TestRun>

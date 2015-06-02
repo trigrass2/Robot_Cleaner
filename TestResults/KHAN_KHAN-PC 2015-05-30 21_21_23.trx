@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8538e0bc-32d0-44f7-b20c-34c4cc0f891c" name="KHAN@KHAN-PC 2015-05-30 21:21:23" runUser="KHAN-PC\KHAN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b2c5f62-c616-40e7-acad-d2f1962650e4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KHAN_KHAN-PC 2015-05-30 21_21_23">
+      <DeploymentItem filename="D:\JobTest\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-05-30T21:21:23.4928706+02:00" queuing="2015-05-30T21:21:23.6418791+02:00" start="2015-05-30T21:21:23.6548798+02:00" finish="2015-05-30T21:21:24.2909162+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestHeadEast" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="78e4ce9b-cecb-923e-75ac-997d32318f4b">
+      <Execution id="a586fcac-23b5-4315-9bea-96c4ea0951c6" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadEast" />
+    </UnitTest>
+    <UnitTest name="TestRobotStartingPoint" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="478759fa-e84d-cd4c-e744-fb400b3bff29">
+      <Execution id="bafe699b-5d2d-4186-9377-503a32b572b9" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobotStartingPoint" />
+    </UnitTest>
+    <UnitTest name="TestRobotConstructor" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="933bdbc8-18e3-5b98-7fb2-7ed8162b8c4b">
+      <Execution id="05583f4f-392d-4b5d-9dad-f7c55c763441" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRobotConstructor" />
+    </UnitTest>
+    <UnitTest name="TestGetSet" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="d17f595f-a6f2-edbd-b424-22eac5c3b1e0">
+      <Execution id="76c54639-a7a6-41a2-85f0-6aa2ede62691" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetSet" />
+    </UnitTest>
+    <UnitTest name="TestIsValid" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44">
+      <Execution id="68953f80-714f-4c59-9274-afcab26ee3be" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.UserInputTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsValid" />
+    </UnitTest>
+    <UnitTest name="TestHeadWest" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="3705d86d-b764-32e9-49c3-40e90af23706">
+      <Execution id="be44087c-e188-4569-abbd-3926dc827d5b" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadWest" />
+    </UnitTest>
+    <UnitTest name="TestBoundryLimits" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="f72c52ab-7b92-6dde-acfd-7351520e732c">
+      <Execution id="705f0b88-2516-4588-b904-3f83965b4509" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBoundryLimits" />
+    </UnitTest>
+    <UnitTest name="TestHeadSouth" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="23f04516-95f5-5b1d-3158-e0a29697e3f0">
+      <Execution id="4a649fb5-7d0c-42a0-881b-b0d754933cf2" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadSouth" />
+    </UnitTest>
+    <UnitTest name="TestHeadNorth" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="2d9a1d25-94f8-96cb-1107-5460a65ecf03">
+      <Execution id="13a5163d-d99c-4039-9162-879d9abe1cee" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestHeadNorth" />
+    </UnitTest>
+    <UnitTest name="TestUniquePoints" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="a1d6b078-0a41-0cd5-20c9-9302c73356d3">
+      <Execution id="49266afa-a4d0-46b0-896f-4b2e007ab6d8" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.RobotEnvironmentTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestUniquePoints" />
+    </UnitTest>
+    <UnitTest name="TestDirection" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="39cda155-5b1c-7acc-0f2d-25ec469f8c71">
+      <Execution id="40d649a7-028d-4e27-aa64-691994931b07" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.DirectionTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDirection" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d17f595f-a6f2-edbd-b424-22eac5c3b1e0" executionId="76c54639-a7a6-41a2-85f0-6aa2ede62691" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="933bdbc8-18e3-5b98-7fb2-7ed8162b8c4b" executionId="05583f4f-392d-4b5d-9dad-f7c55c763441" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44" executionId="68953f80-714f-4c59-9274-afcab26ee3be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39cda155-5b1c-7acc-0f2d-25ec469f8c71" executionId="40d649a7-028d-4e27-aa64-691994931b07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="478759fa-e84d-cd4c-e744-fb400b3bff29" executionId="bafe699b-5d2d-4186-9377-503a32b572b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78e4ce9b-cecb-923e-75ac-997d32318f4b" executionId="a586fcac-23b5-4315-9bea-96c4ea0951c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3705d86d-b764-32e9-49c3-40e90af23706" executionId="be44087c-e188-4569-abbd-3926dc827d5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d9a1d25-94f8-96cb-1107-5460a65ecf03" executionId="13a5163d-d99c-4039-9162-879d9abe1cee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23f04516-95f5-5b1d-3158-e0a29697e3f0" executionId="4a649fb5-7d0c-42a0-881b-b0d754933cf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1d6b078-0a41-0cd5-20c9-9302c73356d3" executionId="49266afa-a4d0-46b0-896f-4b2e007ab6d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f72c52ab-7b92-6dde-acfd-7351520e732c" executionId="705f0b88-2516-4588-b904-3f83965b4509" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="76c54639-a7a6-41a2-85f0-6aa2ede62691" testId="d17f595f-a6f2-edbd-b424-22eac5c3b1e0" testName="TestGetSet" computerName="KHAN-PC" duration="00:00:00.0293790" startTime="2015-05-30T21:21:23.6768811+02:00" endTime="2015-05-30T21:21:24.1249067+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76c54639-a7a6-41a2-85f0-6aa2ede62691">
+    </UnitTestResult>
+    <UnitTestResult executionId="05583f4f-392d-4b5d-9dad-f7c55c763441" testId="933bdbc8-18e3-5b98-7fb2-7ed8162b8c4b" testName="TestRobotConstructor" computerName="KHAN-PC" duration="00:00:00.0006535" startTime="2015-05-30T21:21:24.1319071+02:00" endTime="2015-05-30T21:21:24.1399076+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05583f4f-392d-4b5d-9dad-f7c55c763441">
+    </UnitTestResult>
+    <UnitTestResult executionId="68953f80-714f-4c59-9274-afcab26ee3be" testId="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44" testName="TestIsValid" computerName="KHAN-PC" duration="00:00:00.0008866" startTime="2015-05-30T21:21:24.1459079+02:00" endTime="2015-05-30T21:21:24.1509082+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68953f80-714f-4c59-9274-afcab26ee3be">
+    </UnitTestResult>
+    <UnitTestResult executionId="40d649a7-028d-4e27-aa64-691994931b07" testId="39cda155-5b1c-7acc-0f2d-25ec469f8c71" testName="TestDirection" computerName="KHAN-PC" duration="00:00:00.0010750" startTime="2015-05-30T21:21:24.1559085+02:00" endTime="2015-05-30T21:21:24.1599087+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40d649a7-028d-4e27-aa64-691994931b07">
+    </UnitTestResult>
+    <UnitTestResult executionId="bafe699b-5d2d-4186-9377-503a32b572b9" testId="478759fa-e84d-cd4c-e744-fb400b3bff29" testName="TestRobotStartingPoint" computerName="KHAN-PC" duration="00:00:00.0022809" startTime="2015-05-30T21:21:24.1669091+02:00" endTime="2015-05-30T21:21:24.1729095+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bafe699b-5d2d-4186-9377-503a32b572b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="a586fcac-23b5-4315-9bea-96c4ea0951c6" testId="78e4ce9b-cecb-923e-75ac-997d32318f4b" testName="TestHeadEast" computerName="KHAN-PC" duration="00:00:00.0014958" startTime="2015-05-30T21:21:24.1859102+02:00" endTime="2015-05-30T21:21:24.1909105+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a586fcac-23b5-4315-9bea-96c4ea0951c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="be44087c-e188-4569-abbd-3926dc827d5b" testId="3705d86d-b764-32e9-49c3-40e90af23706" testName="TestHeadWest" computerName="KHAN-PC" duration="00:00:00.0007187" startTime="2015-05-30T21:21:24.1999110+02:00" endTime="2015-05-30T21:21:24.2059114+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be44087c-e188-4569-abbd-3926dc827d5b">
+    </UnitTestResult>
+    <UnitTestResult executionId="13a5163d-d99c-4039-9162-879d9abe1cee" testId="2d9a1d25-94f8-96cb-1107-5460a65ecf03" testName="TestHeadNorth" computerName="KHAN-PC" duration="00:00:00.0008243" startTime="2015-05-30T21:21:24.2129118+02:00" endTime="2015-05-30T21:21:24.2189121+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13a5163d-d99c-4039-9162-879d9abe1cee">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a649fb5-7d0c-42a0-881b-b0d754933cf2" testId="23f04516-95f5-5b1d-3158-e0a29697e3f0" testName="TestHeadSouth" computerName="KHAN-PC" duration="00:00:00.0007473" startTime="2015-05-30T21:21:24.2259125+02:00" endTime="2015-05-30T21:21:24.2299127+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a649fb5-7d0c-42a0-881b-b0d754933cf2">
+    </UnitTestResult>
+    <UnitTestResult executionId="49266afa-a4d0-46b0-896f-4b2e007ab6d8" testId="a1d6b078-0a41-0cd5-20c9-9302c73356d3" testName="TestUniquePoints" computerName="KHAN-PC" duration="00:00:00.0004962" startTime="2015-05-30T21:21:24.2489138+02:00" endTime="2015-05-30T21:21:24.2559142+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49266afa-a4d0-46b0-896f-4b2e007ab6d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="705f0b88-2516-4588-b904-3f83965b4509" testId="f72c52ab-7b92-6dde-acfd-7351520e732c" testName="TestBoundryLimits" computerName="KHAN-PC" duration="00:00:00.0015442" startTime="2015-05-30T21:21:24.2659148+02:00" endTime="2015-05-30T21:21:24.2709151+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="705f0b88-2516-4588-b904-3f83965b4509">
+    </UnitTestResult>
+  </Results>
+</TestRun>

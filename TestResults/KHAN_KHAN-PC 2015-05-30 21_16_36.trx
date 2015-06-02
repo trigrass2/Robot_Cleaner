@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9930e3d3-36a5-4b53-aca3-e540a4a0739d" name="KHAN@KHAN-PC 2015-05-30 21:16:36" runUser="KHAN-PC\KHAN" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5b2c5f62-c616-40e7-acad-d2f1962650e4">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="KHAN_KHAN-PC 2015-05-30 21_16_36">
+      <DeploymentItem filename="D:\JobTest\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-05-30T21:16:36.5134563+02:00" queuing="2015-05-30T21:16:36.7264685+02:00" start="2015-05-30T21:16:36.8034729+02:00" finish="2015-05-30T21:16:37.8215311+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestIsValid" storage="d:\jobtest\consoleapplication1\robotcleanertest\bin\debug\robotcleanertest.dll" id="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44">
+      <Execution id="430dbbdb-8ed9-4438-924e-70f51e23df15" />
+      <TestMethod codeBase="D:/JobTest/ConsoleApplication1/RobotCleanerTest/bin/Debug/RobotCleanerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RobotCleanerTest.UserInputTest, RobotCleanerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsValid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44" executionId="430dbbdb-8ed9-4438-924e-70f51e23df15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="430dbbdb-8ed9-4438-924e-70f51e23df15" testId="4cc8f9bb-ca7e-e860-8b38-e96f4ae03c44" testName="TestIsValid" computerName="KHAN-PC" duration="00:00:00.1245440" startTime="2015-05-30T21:16:36.8674765+02:00" endTime="2015-05-30T21:16:37.7765285+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="430dbbdb-8ed9-4438-924e-70f51e23df15">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at RobotCleanerTest.UserInputTest.TestIsValid() in D:\JobTest\ConsoleApplication1\RobotCleanerTest\UserInputTest.cs:line 18
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
